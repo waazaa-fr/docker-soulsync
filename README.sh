@@ -11,10 +11,12 @@ docker build --no-cache -t soulsync .
 
 And run it:
 ```bash
+mkdir -pm 0777 app/
 docker run -d --name soulsync -p 5800:5800 -p 5900:5900 -v ./app:/soulsync waazaafr/soulsync:beta
 ```
 
 Or with yours:
 ```bash
+mkdir -pm 0777 app/
 docker run -d --name soulsync -p 5800:5800 -p 5900:5900 -v ./app:/soulsync soulsync
 ```
