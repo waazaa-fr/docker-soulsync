@@ -20,3 +20,6 @@ Or with yours:
 mkdir -pm 0777 app/
 docker run -d --name soulsync -p 5800:5800 -p 5900:5900 -v ./app:/soulsync soulsync
 ```
+
+
+## Credits goes to jlesage for his image jlesage/baseimage-gui:ubuntu-22.04-v4 used as base image.
