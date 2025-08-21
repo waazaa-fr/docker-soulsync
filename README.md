@@ -1,4 +1,4 @@
-# TESTING IMAGE
+## TESTING IMAGE
 
 For testing purposes.
 
@@ -22,4 +22,5 @@ docker run -d --name soulsync -p 5800:5800 -p 5900:5900 -v ./app:/soulsync souls
 ```
 
 
-## Credits goes to jlesage for his image jlesage/baseimage-gui:ubuntu-22.04-v4 used as base image.
+# Credits goes to jlesage for his image 
+jlesage/baseimage-gui:ubuntu-22.04-v4 used as base image.
