@@ -1,4 +1,0 @@
-#!/usr/bin/pulseaudio -nF
-load-module module-native-protocol-unix
-load-module module-null-sink sink_name=DummyOutput sink_properties=device.description=DummyOutput
-load-module module-always-sink
